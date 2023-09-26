@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/fontawesome.min.js" integrity="sha512-64O4TSvYybbO2u06YzKDmZfLj/Tcr9+oorWhxzE3yDnmBRf7wvDgQweCzUf5pm2xYTgHMMyk5tW8kWU92JENng==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <section id="main">
@@ -31,7 +31,7 @@
                 <button class="num" onclick="append_disp('0')" value="0">0</button>
                 <button onclick="document.getElementById('input_num').value = ''" class="clear">C</button>
                 <button class="op" onclick="append_disp('/')" value="/">/</button>
-                <button class="clear" onclick="backspace()">B</button>
+                <button class="clear" onclick="backspace()"style="background-color: yellow;"><img class ="back"src="https://static.thenounproject.com/png/649745-200.png" alt=""></button>
                 <button class="ans" onclick="calculate()" value="=">=</button>
                 
 
